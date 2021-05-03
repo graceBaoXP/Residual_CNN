@@ -1,9 +1,7 @@
 # Residual_CNN
 Repeat the results of the paper called 'Deep Residual Learning Meets OFDM Channel Estimation' using MATLAB.
 
-It is defined by ReEsNet.
-
-I think they did not release the code so I was not sure whats I did is hundred percent correct, so just have fun.
+It is defined as ReEsNet. I think they did not release the code so I am not sure what I did is hundred percent correct, so just have fun.
 
 It is a simple demo for implementing residual Neural Network in MATLAB.
 
@@ -29,8 +27,8 @@ Run ResNN_pilot_regression.m to train the residual CNN.
 
 %% Channel
 
-You can see that there are a simple Rayleigh channel and doppler shift rayleigh channel, so depend on your preference to train the model.
+You can see that there is a simple Rayleigh channel and a doppler shift rayleigh channel, so depend on your preference to train the model.
 
 %% Result
 
-I know the MSE performance is worse than the results of the paper called 'Deep Residual Learning Meets OFDM Channel Estimation', but we should have a common knowledge on LS so my LS and MMSE time domain estimation resluts are consistent with the paper called 'On channel estimation in OFDM systems', which is strong enough to be a reference.
+I know the MSE performance is worse than the results of the paper called 'Deep Residual Learning Meets OFDM Channel Estimation', but we should have a common knowledge on LS so my LS and MMSE time domain estimation resluts are consistent with the paper called 'On channel estimation in OFDM systems', which is strong enough to be a reference. You can also compare the result of ChannelNet from the original paper.
