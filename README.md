@@ -40,3 +40,4 @@ Simple Rayleigh channel and Doppler shift Rayleigh channel.
 I know the MSE performance is worse than the results of the paper called 'Deep Residual Learning Meets OFDM Channel Estimation', but we should have a common knowledge on LS so my LS and MMSE time domain estimation resluts are consistent with the paper called 'On channel estimation in OFDM systems', which is strong enough to be a reference. You can also compare the result of ChannelNet from the original paper.
 
 %% By the way is there anyone know how to derive MMSE mathmatiscally? I would appreciate it if you can highlight me some course slides or book related.
+%% By the way is there anyone know how to derivate matrix, not that deep learning type, say if one m by 1 matrix derivated by n by 1 matrix, the result should be m by n, is that how we did in MMSE derivation? Help :(
