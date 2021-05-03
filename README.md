@@ -25,9 +25,15 @@ LMMSE.m is linear MMSE, used profile to view some information so I made it as a 
 
 Run ResNN_pilot_regression.m to train the residual CNN.
 
+ResImNet.m is the untrained DAG network.
+
+%% Test
+
+Use the file of Demonstration_of_H_regression.m to test.
+
 %% Channel
 
-You can see that there is a simple Rayleigh channel and a doppler shift rayleigh channel, so depend on your preference to train the model.
+Simple Rayleigh channel and Doppler shift Rayleigh channel.
 
 %% Result
 
