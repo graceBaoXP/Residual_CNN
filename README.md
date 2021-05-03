@@ -1,5 +1,5 @@
 # Residual_CNN
-Repeat the results of the paper called 'Deep Residual Learning Meets OFDM Channel Estimation' using MATLAB. WINNER2 Channel is not deployed, and you can download the WINNER2 packet so you can use the WINNER2 channel.
+Repeat the results of the paper called 'Deep Residual Learning Meets OFDM Channel Estimation' using MATLAB.
 
 It is defined as ReEsNet. I think they did not release the code so I am not sure what I did is hundred percent correct, so just have fun.
 
@@ -34,6 +34,8 @@ Use Demonstration_of_H_regression.m to test.
 %% Channel
 
 Simple Rayleigh channel and Doppler shift Rayleigh channel.
+
+WINNER2 Channel is not deployed, and you can download the WINNER2 packet so you can use the WINNER2 channel. Go https://github.com/dianixn/Win2_Channel for simple implementation of WINNER2 channel, but I suggest you to have a check on MATLAB offical page :)
 
 %% Result
 
