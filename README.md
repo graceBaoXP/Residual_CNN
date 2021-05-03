@@ -1,11 +1,11 @@
 # Residual_CNN
-Repeat the results of the paper called 'Deep Residual Learning Meets OFDM Channel Estimation' using MATLAB.
+Repeat the results of the paper called 'Deep Residual Learning Meets OFDM Channel Estimation' using MATLAB. WINNER2 Channel is not deployed, and you can download the WINNER2 packet so you can use the WINNER2 channel.
 
 It is defined as ReEsNet. I think they did not release the code so I am not sure what I did is hundred percent correct, so just have fun.
 
 It is a simple demo for implementing residual Neural Network in MATLAB.
 
-It is a version of my part code indeed but long long ago, so if there is any errors let me know. It works, at least I can send you a copy of trained DAG NN.
+It is a version of my part code indeed but long long ago, so if there is any errors let me know. It works, at least I can send you a copy of trained DAG NN. If you have any question let me know :)
 
 %% Pruning
 
@@ -29,7 +29,7 @@ ResImNet.m is the untrained DAG network.
 
 %% Test
 
-Use the file of Demonstration_of_H_regression.m to test.
+Use Demonstration_of_H_regression.m to test.
 
 %% Channel
 
@@ -38,3 +38,5 @@ Simple Rayleigh channel and Doppler shift Rayleigh channel.
 %% Result
 
 I know the MSE performance is worse than the results of the paper called 'Deep Residual Learning Meets OFDM Channel Estimation', but we should have a common knowledge on LS so my LS and MMSE time domain estimation resluts are consistent with the paper called 'On channel estimation in OFDM systems', which is strong enough to be a reference. You can also compare the result of ChannelNet from the original paper.
+
+%% By the way is there anyone know how to derive MMSE mathmatiscally? I would appreciate it if you can highlight me some course slides or book related.
