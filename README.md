@@ -1,5 +1,5 @@
 # Residual_CNN
-Repeat the results of the paper called 'Deep Residual Learning Meets OFDM Channel Estimation' using MATLAB.
+Repeat the results of the paper called 'Deep Residual Learning Meets OFDM Channel Estimation' using MATLAB R2020b
 
 It is defined as ReEsNet. I think they did not release the code so I am not sure what I did is hundred percent correct, so just have fun.
 
