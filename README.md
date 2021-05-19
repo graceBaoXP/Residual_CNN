@@ -5,11 +5,13 @@ It is defined as ReEsNet. I think they did not release the code so I am not sure
 
 It is a simple demo for implementing residual Neural Network in MATLAB.
 
-It is a version of my part code indeed but long long ago, so if there is any errors let me know. It works, at least I can send you a copy of trained DAG NN. If you have any question let me know :)
+It is a version of my part code indeed but long long ago, so if there is any errors let me know. It works, at least I can send you a copy of trained DAG NN. If you have any question let me know.
+
+Residual_transposed.m deploys the transpose convolution instead of resize.
 
 %% Pruning
 
-Go https://github.com/dianixn/Pruning to see the details. By the way, my name is Dianxin, that's a typo.
+Go https://github.com/dianixn/Pruning to see the details.
 
 Pruning.m is used to prune the Neural Network. DAG is a read only structure, that is the reason why we need a module to do pruning.
 
