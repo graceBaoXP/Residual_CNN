@@ -7,8 +7,6 @@ It is a simple demo for implementing residual Neural Network in MATLAB.
 
 It is a version of my part code indeed but long long ago, so if there is any errors let me know. It works, at least I can send you a copy of trained DAG NN. If you have any question let me know.
 
-Residual_transposed.m deploys the transpose convolution instead of resize.
-
 %% Pruning
 
 Go https://github.com/dianixn/Pruning to see the details.
@@ -27,7 +25,9 @@ LMMSE.m is linear MMSE, used profile to view some information so I made it as a 
 
 Run ResNN_pilot_regression.m to train the residual CNN.
 
-ResImNet.m is the untrained DAG network.
+ResImNet.m is the untrained DAG network which deploys interpolation to resize the output.
+
+Residual_transposed.m the untrained DAG network which deploys the transpose convolution to resize the output.
 
 %% Test
 
